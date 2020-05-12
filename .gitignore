@@ -35,4 +35,4 @@ trace.edn
 .eastwood
 .nrepl-port
 .env
-
+.rebel_readline_history
