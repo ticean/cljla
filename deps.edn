@@ -20,9 +20,9 @@
              org.clojure/core.rrb-vector               {:mvn/version "0.1.1"}}
 
  :aliases   {
-             :run      {:extra-paths ["resources"]
-                        :jvm-opts    ["-DLOG4J_CONFIGURATION_FILE=resources/log4j2.xml"]
-                        :main-opts   ["--main" "ticean.cljla.core"]}
+             ;; :run      {:extra-paths ["resources"]
+             ;;            :jvm-opts    ["-DLOG4J_CONFIGURATION_FILE=resources/log4j2.xml"]
+             ;;            :main-opts   ["--main" "cljla.core"]
 
              :repl     {:extra-deps  {com.bhauman/rebel-readline {:mvn/version "0.1.4"}
                                       nrepl                {:mvn/version "0.7.0"}

@@ -13,18 +13,17 @@
  :artifact-id                 "cljla"
  :artifact-version            "0.1.0-SNAPSHOT"
 
- :main                        "ticean.cljla.core"
  :omit-source?                true
  ;;:uberjar-filename            "cljla.jar"
 
- :description                 "FIXME: Put your application description here"
- :url                         "FIXME: https://github.com/add-your-repo"
- :scm                         {:url "FIXME: https://github.com/add-your-repo"}
+ :description                 "Code challenges for Los Angeles Clojure Users Group."
+ :url                         "https://github.com/ticean/cljla"
+ :scm                         {:url "https://github.com/ticean/cljla"}
  :license                     {:name "EPL-2.0"
                                :url  "https://www.eclipse.org/legal/epl-2.0/"}
  :excluded-libs               #{}                           ;; e.g #{ org.clojure/clojure my.org/lib01}
  ;;:standalone-run-script       "./my-custom-script.sh"
- :manifest                    {"Multi-Release" "true"}      ;; log4j2 requires Multi-Release jar file for JDK9+
+ :manifest                    {"Multi-Release" "true"}}      ;; log4j2 requires Multi-Release jar file for JDK9+
  ;; :jlink-options is used when building standalone bundle
  ;; :jlink-options               ["--strip-debug" "--no-man-pages" "--no-header-files" "--compress=2" "--add-modules" "java.sql"]
- }
+ 
